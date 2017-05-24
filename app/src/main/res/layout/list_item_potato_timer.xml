@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/list_item_completed_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:enabled="false"
+        android:padding="4dp"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/list_item_title_textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Project Title             Work Time"/>
+
+    <TextView
+        android:id="@+id/list_item_date_textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_title_textView"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:text="Project Start Date   Break Time"/>
+
+    <TextView
+        android:id="@+id/list_item_work_time_textView"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_item_title_textView"
+        android:layout_toLeftOf="@+id/list_item_completed_checkBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"/>
+
+    <TextView
+        android:id="@+id/list_item_break_time_textView"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_item_title_textView"
+        android:layout_toRightOf="@+id/list_item_date_textView"
+        android:layout_toLeftOf="@+id/list_item_completed_checkBox"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PotatoTimer</string>
+    <string name="title_hint_potato_timer">Enter a title for your Project</string>
+    <string name="title_label_potato_timer">Project</string>
+    <string name="description_potato_timer">Description</string>
+    <string name="description_hint_potato_timer">Write a Description</string>
+    <string name="completed_label_potato_timer">Complete</string>
+    <string name="radiobutton_in_progress_potato_timer">In Progress</string>
+    <string name="radiobutton_completed_potato_timer">Completed</string>
+    <string name="work_potato_timer">WORK</string>
+    <string name="break_potato_timer">BREAK</string>
+    <string name="button_pause_progress">PAUSE PROGRESS</string>
+    <string name="title_arraylist_potato_timers">Projects</string>
+    <string name="date_picker_title">Select Due Date</string>
+    <string name="new_potato_timer">New Project</string>
+    <string name="delete_potato_timer">Delete Project</string>
+    <string name="toast">project process must be paused</string>
+    <string name="date_title">Due Date</string>
+</resources>
